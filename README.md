@@ -1,15 +1,15 @@
 # DevOps Student Management API
 
-මේක Python Flask සහ MySQL පාවිච්චි කරලා හදපු REST API එකක්. මේකෙන් students ලව manage කරන්න පුළුවන්.
+A RESTful API built with Python (Flask) and MySQL to manage student records. This project serves as Phase 1 of a comprehensive DevOps portfolio, focusing on local development, API testing, and version control best practices.
 
 ## Technologies Used
-- Python (Flask)
-- MySQL
-- Postman (API Testing)
-- Git & GitHub
+- **Backend:** Python (Flask)
+- **Database:** MySQL
+- **API Testing:** Postman
+- **Version Control:** Git & GitHub
 
 ## Features
-- GET /students - සියලුම students ලව බලන්න
-- POST /students - අලුත් student කෙනෙක් add කරන්න
-- PATCH /students/<id> - student කෙනෙක්ගේ විස්තර වෙනස් කරන්න
-- DELETE /students/<id> - student කෙනෙක්ව අයින් කරන්න
+- `GET /students` - Retrieve a list of all students
+- `POST /students` - Add a new student to the database
+- `PATCH /students/<id>` - Update an existing student's details by ID
+- `DELETE /students/<id>` - Remove a student from the database by ID
